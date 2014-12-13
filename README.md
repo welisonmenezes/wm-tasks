@@ -8,7 +8,9 @@ As tarefas encontradas nesse repositório são de meu uso pessoal, portanto est�
 As tarefas executadas são:
 
 baixar via bower o jquery.1.11.1, o html5shiv e o normalize-css
+
 Criar diretórios e arquivos básicos para começar o desenvolvimento de front
+
 'Assistir' alterações em arquivos js e css para aplicar concatenação e compressão gerando um arquivo css e um js minificados
 
 [Website do WM Tasks](http://welisonmenezes.com.br/works/plugins/grunt/wm-tasks/)
