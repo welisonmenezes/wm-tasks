@@ -13,4 +13,4 @@ Criar diretórios e arquivos básicos para começar o desenvolvimento de front
 
 'Assistir' alterações em arquivos js e css para aplicar concatenação e compressão gerando um arquivo css e um js minificados
 
-[Website do WM Tasks](http://welisonmenezes.com.br/works/plugins/grunt/wm-tasks/)
+[Website do WM Tasks](http://welisonmenezes.com.br/extras/plugins/grunt/wm-tasks/)
