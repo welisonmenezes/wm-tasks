@@ -1,0 +1,13 @@
+{
+    "name": "wm-basic",
+    "version": "1.0.0",
+    "dependencies": {
+        "jquery"    	: "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js",
+        "html5shiv" 	: "http://html5shiv.googlecode.com/svn/trunk/html5.js",
+        "normalize" 	: "http://normalize-css.googlecode.com/svn/trunk/normalize.css",
+        "respond"   	: "https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js",
+        "json3"     	: "http://cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.js",
+        "requirejs" 	: "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.18/require.js",
+        "bootstrapGrid" : "http://www.welisonmenezes.com.br/extras/repositorio/bower/_bootstrapGrid.scss"
+    }
+}

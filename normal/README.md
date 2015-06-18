@@ -1,4 +1,4 @@
-wm-validate
+wm-tasks
 ===========
 
 WM Tasks são as tarefas automatizadas baseadas em bower e grunt.
