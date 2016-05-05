@@ -39,11 +39,11 @@ module.exports = function (grunt) {
                     done();
                 },
                 "../footer.php": function(fs, fd, done) {
-                    fs.writeSync(fd, '\n\t\t<!--script data-main="_dev/js/build/config.js" src="_dev/js/lib/requirejs.js"></script-->\n\t\t<script src="js/jquery.min.js"></script>\n\t\t<script src="js/app.min.js"></script>\n\t</body>\n</html>');
+                    fs.writeSync(fd, '\n\t\t<!--script data-main="_dev/js/build/config.js" src="_dev/js/lib/requirejs.js"></script-->\n\t\t<script src="js/app.min.js"></script>\n\t</body>\n</html>');
                     done();
                 },
                 "../_dev/js/build/config.js" : function(fs, fd, done){
-                    fs.writeSync(fd, 'requirejs.config({\n\tpaths: {\n\t\tmain : "../app/main",\n\t},\n\tshim: {\n\t\tmain : {}\n\t}\n});\n\nrequire(["main"]);');
+                    fs.writeSync(fd, 'requirejs.config({\n\tpaths: {\n\t\tjquery : "../lib/jquery.min",\n\t\tmain : "../app/main",\n\t},\n\tshim: {\n\t\tjquery : {\n\t\t\texports : "$"\n\t\t},\n\t\tmain : {\n\t\t\tdeps : ["jquery"]\n\t\t}\n\t\t}\n});\n\nrequire(["main"]);');
                     done();
                 },
                 "../_dev/js/app/initPlugins.js" : function(fs, fd, done){
@@ -101,7 +101,7 @@ module.exports = function (grunt) {
                 files : [
                     {
                         src: 'bower_components/jquery/index.js',
-                        dest: '../js/jquery.min.js'
+                        dest: '../_dev/js/lib/jquery.min.js'
                     },
                     {
                         src: 'bower_components/requirejs/index.js',
