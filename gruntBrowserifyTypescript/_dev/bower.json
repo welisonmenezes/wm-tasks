@@ -1,0 +1,14 @@
+{
+    "name": "wm-basic",
+    "version": "1.0.0",
+    "dependencies": {
+        "jquery"        : "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
+        "html5shiv"     : "http://beta.kaus.com.br/welison/bower/html5shiv.js",
+        "normalize"     : "http://beta.kaus.com.br/welison/bower/normalize.css",
+        "respond"       : "https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js",
+        "json3"         : "http://cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.min.js",        
+        "placeholder"   : "http://beta.kaus.com.br/welison/bower/jquery.html5-placeholder-shim.js",
+        "bootstrapGrid" : "http://beta.kaus.com.br/welison/bower/_bootstrapGrid.scss",
+        "scroll"        : "http://beta.kaus.com.br/welison/bower/scroll.min.js"
+    }
+}

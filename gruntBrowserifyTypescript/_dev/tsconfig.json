@@ -1,0 +1,28 @@
+{
+  "buildOnSave": false,
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es3",
+    "noImplicitAny" : true,
+    "removeComments" : true,
+    "sourceMap": false,
+    "allowJs" : false,
+    "watch" : false,
+    "allowSyntheticDefaultImports": false,
+    "outDir" : "js/js"
+  },
+  "include": [
+      "js/ts/*"
+  ],
+  "exclude": [
+    "bower_components",
+    "node_modules"
+  ],
+  "types": [
+    "node",
+    "jquery"
+  ],
+  "typeRoots": [
+    "node_modules/@types"
+  ]
+}
